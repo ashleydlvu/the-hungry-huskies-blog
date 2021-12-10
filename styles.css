@@ -1,0 +1,193 @@
+/* Ashley Vu
+Date: 4/18/21
+Section: AF/TA: Shriya Kurpad
+This is the style.css page that styles the sections of
+intro, entries, and new posts on the blog to give it a
+consistent look and feel that matches the intended aesthetic
+of my food blog */
+
+body {
+  background: url("img/background.jpeg") fixed;
+  background-size: cover;
+  font-family: 'Questrial', sans-serif;
+}
+
+button {
+  font-family: 'Questrial', sans-serif;
+  margin: 20px;
+  width: 125px;
+  font-size: 16px;
+  border: none;
+}
+
+header, #intro > section, #entries > section, .posts, footer, #new-entry {
+  display: flex;
+}
+
+header {
+  height: 100vh;
+}
+
+header, footer, .posts {
+  justify-content: center;
+}
+
+header, #intro, .posts, #new-entry {
+  flex-direction: column;
+}
+
+header, .posts {
+  align-items: center;
+}
+
+header, #entries > section {
+  flex-wrap: wrap;
+}
+
+button, #intro, #add-entry {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > h1, #intro > h2, #add-entry > h2 {
+  font-family: 'Coda Caption', sans-serif;
+  text-transform: uppercase;
+}
+
+header > h1 {
+  font-size: 80px;
+}
+
+header > h2 {
+  font-size: 22px;
+}
+
+header, #entries > h2 {
+  color: white;
+}
+
+#intro {
+  background-color: white;
+  padding: 20px;
+  border-top: 15px solid;
+  border-bottom: 15px solid;
+  width: 80%;
+}
+
+#intro > section > p {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+#intro > section > img {
+  width: 25vw;
+  height: 100%;
+  float: left;
+  border-radius: 10%;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+input, textarea, #intro > section > img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intro > h2, #entries > h2, #add-entry > h2 {
+  text-align: center;
+}
+
+#intro > h2 {
+  font-size: 50px;
+  text-decoration: bold;
+}
+
+#entries > section {
+  justify-content: space-evenly;
+}
+
+.posts {
+  margin: 15px;
+  width: 275px;
+  background-color: white;
+  padding: 20px;
+}
+
+.posts, #add-entry {
+  height: 375px;
+}
+
+#entries img {
+  height: 300px;
+  width: 250px;
+}
+
+#entries > h2 {
+  font-size: 35px;
+}
+
+#entries {
+  width: 90%;
+  margin: auto;
+}
+
+.posts > article > p {
+  margin: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer img, button {
+  height: 40px;
+}
+
+#add-entry {
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+}
+
+#add-entry, #intro, .posts {
+  opacity: 90%;
+}
+
+#add-entry, button {
+  border-radius: 5%;
+}
+
+#add-entry, #entries {
+  margin-bottom: 20px;
+}
+
+footer img, .hidden {
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+  font-size: 16px;
+}
+
+.show, #intro > section > p {
+  line-height: 1.5;
+}
+
+#entries article:hover .info {
+  display: block;
+}
+
+.info {
+  color: #191819;
+  display: none;
+}
+
+.info, #intro > section > p {
+  font-size: 24px;
+}

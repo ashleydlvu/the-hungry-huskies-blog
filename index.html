@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Ashley Vu
+Date: 4/18/21
+Section: AF/TA: Shriya Kurpad
+This is the index.html page that creates structure and organizes my food blog
+into various sections such as the intro, entries, form for new posts, and social
+media links.
+-->
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>The Hungry Huskies</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Hungry Huskies</h1>
+      <h2>
+        A space for friends, family, or fellow foodies to connect through a shared love for food.
+      </h2>
+    </header>
+    <main>
+      <section id="intro">
+        <h2>About Us</h2>
+        <section>
+          <img src="img/about_us.jpeg" alt="Asian girl and Indian boy smiling on a beach in front of a sunset">
+          <p>
+            Hi! Our names are Ashley and Uzair and we are two hungry college students at the
+            University of Washington on the hunt for the tasiest eats around!
+            We started <em>The Hungry Huskies</em> to document some of our adventures as we
+            try new cuisines in both local and abroad neighborhoods and hope that you enjoy
+            our reviews and even try some of our recommendations! So sit back, grab a snack,
+            and enjoy our foodie adventures...
+          </p>
+        </section>
+      </section>
+      <section id="entries">
+        <h2>Our adventures so far:</h2>
+        <section>
+          <article class="posts">
+            <p class="hidden show">
+              I was lucky enough to win a giveaway on IG to snag some of these highly anticipated
+              @theflourbox donuts! I tried the London Fog, Cookies and Cream, and Hokey Pokey flavor
+              and even managed to snag a cinnamon roll. The Cookies and Cream was by far my favorite
+              (I'm probably biased tho because that is my go to flavor in everything). The brioche
+              donut was perfectly pillowy but is very sweet (the sugar coating on the outside
+              was a bit much for me). Would definetely sell my left kidney for the cinnamon roll.
+              Overall would rate a 9.8/10<br>- Ashley<br>
+            </p>
+            <article>
+              <img src="img/theflourbox_donuts.jpeg" alt="Three sugar donuts filled with cream">
+              <p class="info">The FlourBox Donuts</p>
+              <p class="info">Date: 4.8.21</p>
+            </article>
+          </article>
+          <article class="posts">
+            <p class="hidden show">
+              Brunch is highkey one of my favorite meals to go out to so is wasn't a surpise I
+              was a huge fan of Kingsland Kitchen. I got to sample different dishes as seen in
+              the picture but the most notable was most definitely their pancake stack. I
+              They were beyond fluffy and the perfect combination of fresh fruit, cream, and
+              pancake. Super fire 10/10 would recommend.<br>- Ashley<br>
+            </p>
+            <article>
+              <img src="img/kingsland.jpeg" alt="Three plates one with hamburger with an egg and fries on the side,
+              stack of waffles with whipped cream and fruits on the side, and a steak with a
+              side of bread and potatoes.">
+              <p class="info">Kingsland Kitchen</p>
+              <p class="info">Date: 3.28.21</p>
+            </article>
+          </article>
+          <article class="posts">
+            <p class="hidden show">
+              Definetely my favorite boba shop I've tried in Seattle. Dope vibes with
+              the shop streetwear themed. Had super unique flavors overall a 9.5/10.<br>- Ashley<br>
+            </p>
+            <article>
+              <img src="img/driptea.jpeg" alt="Vanilla ice cream with boba topping and matcha oreo shake">
+              <p class="info">Drip Tea</p>
+              <p class="info">Date: 9.28.2020</p>
+            </article>
+          </article>
+        </section>
+      </section>
+      <section id="add-entry">
+        <h2>Post</h2>
+        <article id="new-entry">
+          <label for="date">Date: </label>
+          <input id="date" type="text">
+          <label for="restaraunt">Restaraunt: </label>
+          <input id="restaraunt" type="text">
+          <label for="review">Review: </label>
+          <textarea id="review" rows="6" cols="50" name="post"></textarea>
+          <button>New Entry</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="https://www.instagram.com/thehungryhuskies/"><img src="img/ig_logo.png"
+      alt="Instagram logo of black and white camera"></a>
+      <a href="https://twitter.com/"><img src="img/twitter_logo.png" alt="Twitter logo sillouhette of black bird"></a>
+      <a href="https://www.linkedin.com/feed/"><img src="img/linkedin_logo.png"
+      alt="LinkedIn logo rounded square with letters in outlined"></a>
+    </footer>
+  </body>
+
+</html>
